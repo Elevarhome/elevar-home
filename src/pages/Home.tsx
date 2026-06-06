@@ -5,7 +5,7 @@ import { ExternalLink, Menu, X, ArrowDown, ChevronLeft, ChevronRight } from "luc
 // Para adicionar novas imagens: inclua o caminho em productImages abaixo
 const productImages = [
   {
-    src: "/images/suporte-notebook-2.jpg",
+    src: "/images/suporte notebook-2.jpg",
     alt: "Suporte articulado com notebook em uso — trabalhe com mais conforto e produtividade",
     label: "Trabalhe com mais conforto e produtividade",
   },
@@ -15,22 +15,22 @@ const productImages = [
     label: "Ajuste a altura ideal para sua postura",
   },
   {
-    src: "/images/suporte-notebook-3.jpg",
+    src: "/images/suporte notebook-3.jpg",
     alt: "Estrutura metálica resistente e estável do suporte articulado",
     label: "Estrutura metálica resistente e estável",
   },
   {
-    src: "/images/suporte-notebook-4.jpg",
+    src: "/images/suporte notebook-4.jpg",
     alt: "Base giratória 360° do suporte para notebook — máxima praticidade",
     label: "Base giratória 360° para máxima praticidade",
   },
   {
-    src: "/images/suporte-notebook-5.jpg",
+    src: "/images/suporte-notebook 5.jpg",
     alt: "Suporte para notebook trazendo mais organização e espaço na mesa",
     label: "Mais organização e espaço na sua mesa",
   },
   {
-    src: "/images/suporte-notebook-6.jpg",
+    src: "/images/suporte notebook-6.jpg",
     alt: "Suporte articulado ideal para home office, estudos e trabalho remoto",
     label: "Ideal para home office, estudos e trabalho remoto",
   },
