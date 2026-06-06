@@ -25,7 +25,7 @@ const productImages = [
     label: "Base giratória 360° para máxima praticidade",
   },
   {
-    src: "/images/suporte notebook 5.jpg",
+    src: "/images/suporte notebook-5.jpg",
     alt: "Suporte para notebook trazendo mais organização e espaço na mesa",
     label: "Mais organização e espaço na sua mesa",
   },
