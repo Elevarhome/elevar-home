@@ -307,16 +307,21 @@ export default function Home() {
                 </ul>
               </div>
 
-              <div className="flex flex-col gap-2 pt-2">
+              <div className="flex flex-col gap-3 pt-2">
                 <p className="text-xs text-[#888] leading-relaxed italic">
                   "Pequenas mudanças no ambiente podem gerar mais conforto, foco e produtividade todos os dias."
                 </p>
-                <a href="https://amzn.to/4ucGJg1" target="_blank" rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-[#1A1A1A] text-white text-sm rounded-full hover:bg-[#333] transition-colors w-full md:w-fit mt-2">
-                  Conhecer o Produto
+                <a href="https://www.amazon.com.br/Ajust%C3%A1vel-Girat%C3%B3rio-Resistente-Ergon%C3%B4mico-Articulado/dp/B0GSRHNNW5?tag=elevaroficial-20&linkCode=sl2&linkId=f5a2c1a3cd44b3c6f2463a3adf519945" target="_blank" rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-[#1A1A1A] text-white text-sm rounded-full hover:bg-[#333] transition-colors w-full mt-2">
+                  Comprar na Amazon
                   <ExternalLink className="w-3.5 h-3.5" />
                 </a>
-                <p className="text-[11px] text-[#BBBAB5] pl-1">Sem custo adicional para você.</p>
+                <a href="#" onClick={(e) => e.preventDefault()}
+                  className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-white border border-[#D0CEC9] text-[#1A1A1A] text-sm rounded-full hover:bg-[#F9F8F6] transition-colors w-full">
+                  Comprar no Mercado Livre
+                  <ExternalLink className="w-3.5 h-3.5" />
+                </a>
+                <p className="text-[11px] text-[#BBBAB5] pl-1 text-center">Sem custo adicional para você. • Link Mercado Livre em breve.</p>
               </div>
             </div>
           </div>
@@ -438,3 +443,4 @@ export default function Home() {
     </div>
   );
 }
+
