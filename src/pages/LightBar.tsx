@@ -259,22 +259,24 @@ export default function LightBar() {
               {/* Botões de compra */}
               <div className="flex flex-col gap-3 pt-2">
                 <a
-                  href="#"
-                  onClick={(e) => e.preventDefault()}
+                  href="https://amzn.to/4umyH47"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-[#1A1A1A] text-white text-sm rounded-full hover:bg-[#333] transition-colors w-full"
                 >
                   Comprar na Amazon
                   <ExternalLink className="w-3.5 h-3.5" />
                 </a>
                 <a
-                  href="#"
-                  onClick={(e) => e.preventDefault()}
+                  href="https://www.mercadolivre.com.br/luminaria-curve-barra-led-monitor-luz-computador-ergonomica/up/MLBU3315882932?pdp_filters=item_id%3AMLB5512082060&matt_tool=38524122#origin=share&sid=share&wid=MLB5512082060&action=copy"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-white border border-[#D0CEC9] text-[#1A1A1A] text-sm rounded-full hover:bg-[#F9F8F6] transition-colors w-full"
                 >
                   Comprar no Mercado Livre
                   <ExternalLink className="w-3.5 h-3.5" />
                 </a>
-                <p className="text-[11px] text-[#BBBAB5] pl-1 text-center">Links em breve.</p>
+                <p className="text-[11px] text-[#BBBAB5] pl-1 text-center">Sem custo adicional para você.</p>
               </div>
             </div>
           </div>
@@ -414,3 +416,4 @@ export default function LightBar() {
     </div>
   );
 }
+
