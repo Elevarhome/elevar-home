@@ -316,12 +316,12 @@ export default function Home() {
                   Comprar na Amazon
                   <ExternalLink className="w-3.5 h-3.5" />
                 </a>
-                <a href="#" onClick={(e) => e.preventDefault()}
+                <a href="https://www.mercadolivre.com.br/suporte-notebook-metal-grande-com-base-giratoria-360-graus/up/MLBU3316160735?pdp_filters=item_id%3AMLB5517924812&matt_tool=38524122#origin=share&sid=share&wid=MLB5517924812&action=copy" target="_blank" rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-white border border-[#D0CEC9] text-[#1A1A1A] text-sm rounded-full hover:bg-[#F9F8F6] transition-colors w-full">
                   Comprar no Mercado Livre
                   <ExternalLink className="w-3.5 h-3.5" />
                 </a>
-                <p className="text-[11px] text-[#BBBAB5] pl-1 text-center">Sem custo adicional para você. • Link Mercado Livre em breve.</p>
+                <p className="text-[11px] text-[#BBBAB5] pl-1 text-center">Sem custo adicional para você.</p>
               </div>
             </div>
           </div>
